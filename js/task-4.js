@@ -1,7 +1,6 @@
 
-
 function getShippingCost (country) {
-let price;
+let price = 0;
    switch (country) {
    
    case"China":price = 100; 
@@ -19,8 +18,6 @@ let price;
     
  }
    
-
-
   
 }
 
@@ -36,4 +33,6 @@ getShippingCost("China");
 getShippingCost("Chile");
 getShippingCost("Australia");
 getShippingCost("Jamaica");
+
+
 
